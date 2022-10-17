@@ -1,12 +1,13 @@
 # exccersie-
 
-
-
 Write a program that prints a multiplication table for numbers up to 12
   Write a program that prints all prime numbers. between 0 and one 10,000,000
+
 Write a program that prints the next 20 leap years.
   Write a function that takes a list of numbers and returns the largest element.
+  
   Write a function that tests whether a string is a palindrome.
+
 Write a function that takes a list of strings an prints them, one per line, in a rectangular frame. For example the list ["Hello", "World", "in", "a", "frame"] gets printed as:///
 ***
 * Hello *
