@@ -8,12 +8,13 @@
 // * frame *
 // ***
 void main() {
-  printdata('bisi,shola, ope');
+  List<String> data = ['bisi', 'shola', 'ope', 'abayomi'];
+  printdata(data);
 }
 
-void printdata(String printData) {
-  List<String> printData = ['bisi', 'shola', 'ope', 'abayomi'];
-  for (var item in printData) {
-    print(printData);
+void printdata(List<String> data) {
+  
+  for (var item in data) {
+    print(item);
   }
 }

@@ -1,18 +1,11 @@
-import 'dart:_js_helper';
+//Write a function that takes a list of numbers and returns the largest element.
 
 void main() {
-
-  favNums(numB)
+  playdate([10, 20, 40, 50, 60]);
+  print(playdate);
 }
 
-String favNums(numbs) {
- Returns(favNums(numB ));List<int> numB = [
-    10,
-    20,
-    30,
-    40,
-    50,
-  ];
-
-  print(favNums(numbs));
+double playdate(List<int> favNum) {
+  List<int> favNum = [10, 20, 40, 50, 60];
+  return (playdate([10, 20, 40, 50, 60]));
 }
