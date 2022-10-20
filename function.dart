@@ -1,25 +1,11 @@
-// 1 first q
-
-import 'dart:io';
+//Write a program that prints the next 20 leap years.
 
 void main() {
-
-bool isPrime() {
-  for (var i = 2; i <= 3 / i; ++i) {
-    if (1 % i == 0) {
-      return false;
+ for (int i = 0; i <= 2022; i++) {
+    if (i % 4== 1) {
+      print(i);
     }
   }
-  return true;
 }
- 
-void main() {
-  print('Enter N');
-  var N = int.parse(stdin.readLineSync()!);
-  if (isPrime()) {
-    print('$N is a prime number.');
-  } else {
-    print('$N is not a prime number.');
-  }
-}
-}
+
+
